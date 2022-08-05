@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Signer Test</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/signer.js"></script>
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-group">
+            <button id="version-button" class="btn btn-primary">Client version</button>
+            <span id="version-result"></span>
+        </div>
+        <div class="form-group">
+            <button id="certificate-button" class="btn btn-primary">List certificates</button>
+            <button id="certificate-result" class="col"></button>
+            <select id="certificate-list" class="form-control"></select>
+        </div>
+        <div class="form-group">
+            <button id="sign-button" class="btn btn-primary">Sign</button>
+            <textarea id="sign-result" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+            <button id="encrypt-button" class="btn btn-primary">Encrypt</button>
+            <textarea id="encrypt-result" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+            <button id="decrypt-button" class="btn btn-primary">Decrypt</button>
+            <textarea id="decrypt-result" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+            <button id="verify-button" class="btn btn-primary">Verify</button>
+            <textarea id="verify-result" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+            <button id="signjson-button" class="btn btn-primary">SignJSON</button>
+            <textarea id="signjson-result" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+            <button id="verifyjson-button" class="btn btn-primary">VerifyJSON</button>
+            <textarea id="verifyjson-result" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+            <button id="encryptjson-button" class="btn btn-primary">EncryptJSON</button>
+            <textarea id="encryptjson-result" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+            <button id="decryptjson-button" class="btn btn-primary">DecryptJSON</button>
+            <textarea id="decryptjson-result" class="form-control"></textarea>
+        </div>
+    </div>
+</body>
+
+</html>
